@@ -2,15 +2,15 @@
 
 ### Core
 
-Date | Paper | Code
+Num | Paper | Code | *
 :---: | :---: | :---:
-2222 | [[paper]] | [[code]] |
+1 | [[https://arxiv.org/pdf/2010.11929.pdf]] | [[code]] | ICLR |
 2222 | [[paper]] | [[code]] |
 
 
 ### with Segmentation
 
-Date | Paper | Code
+Num | Paper | Code | *
 :---: | :---: | :---:
-2222 | [[paper]] | [[code]] |
-2222 | [[paper]] | [[code]] |
+2222 | [[paper]] | [[code]] | |
+2222 | [[paper]] | [[code]] | |
