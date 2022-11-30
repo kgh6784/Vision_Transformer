@@ -30,6 +30,6 @@
 ### Q5) 논문 <early convolutions help transformers see better>
 - Image를 patch단위로 쪼갤 때 conv를 이용해서 쪼개면 더 학습을 잘 할 수 있다고 한다.
    
-Q6) learnable parameter - position embedding 왜 randn?
+### Q6) learnable parameter - position embedding 왜 randn?
 - timm에서도 이렇게 진행하였다.
 - learnable parameter이기 때문에 학습하면서 알아서 잘 embedding시킨다고 하는데 솔직히 정확하게는 모르겠다.
