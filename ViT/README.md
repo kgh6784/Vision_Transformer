@@ -1,7 +1,7 @@
 ## ViT Architecture
 
 <p align="center">
-   <img src="Vision transformer.png" alt="vit"> 
+   <img src="Vision transformer.png" alt="vit"  width="700" > 
 </p>
 
 
@@ -13,7 +13,7 @@
 - layer norm을 사용하는 것은 ViT는 CNN과 달리 채널 간 weight를 공유하지 않고, 각 이미지별 attention이 곱해지기 때문인 것 같다. 
 - CNN에 layer norm이나 instance norm을 하면 어떤가 했는데 이미 ConvNext에서 실험을 해보았다고 한다. 
 <p align="center">
-   <img src="./save_img/layer_normalization.png" alt="vit"> 
+   <img src="./save_img/layer_normalization.png" alt="vit" width = "600"> 
 </p>
 
 ### Q2) FeedForward에서 왜 activation 함수를 한 번만 Linear 뒤에 쓰냐
