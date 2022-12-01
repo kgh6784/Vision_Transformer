@@ -22,12 +22,12 @@
 
 
 ### Q3) 왜 MLP를 사용해야 하는가
-- <Pay Attention to MLPs>를 보면, attention에서는 각 단어의 상관관계를 파악했으니(나는 그와의 관계를 '정리'했다, 집을 '정리'했다에서 정리는 각각 다른 의미), MLP에서는 고정된 파라미터를 바탕으로 전체적인 관계를 설명할 수 있는 모델을 만들기 위함이라고 되어 있다. 
+- 논문 "Pay Attention to MLPs"를 보면, attention에서는 각 단어의 상관관계를 파악했으니(나는 그와의 관계를 '정리'했다, 집을 '정리'했다에서 정리는 각각 다른 의미), MLP에서는 고정된 파라미터를 바탕으로 전체적인 관계를 설명할 수 있는 모델을 만들기 위함이라고 되어 있다. 
 
 ### Q4) q, k, v를 만들 때 linear로 해야 하는가?
 - linear 함수를 사용하면 어짜피 앞 layer에서 모든 정보를 사용할 것이기 때문에, linear로 해야 end-to-end 학습이 가능할 것이다.
    
-### Q5) 논문 <early convolutions help transformers see better>
+### Q5) 논문 "early convolutions help transformers see better"
 - Image를 patch단위로 쪼갤 때 conv를 이용해서 쪼개면 더 학습을 잘 할 수 있다고 한다.
    
 ### Q6) learnable parameter - position embedding 왜 randn?
